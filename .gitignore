@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Vendor packages
+vendor/
+
+# Dependency directories (for example, Go modules and vendored dependencies)
+vendor/
+Gopkg.lock
+Gopkg.toml
+go.work
+go.work.sum
+
+# IDE and Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test results
+*.test
+
+# Generated files
+generated/
+*.pb.go
+
+# Application-specific files
+config.yaml
+.env
+
+# Docker file
+docker-compose.*
